@@ -1,0 +1,28 @@
+$primary-color: #0a273f;
+$secondary-color: #cce7fd;
+$accent-color: #00a3cc;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;
+}
+
+
+@font-face {
+    font-family: "lora"; 
+    src: url("../fonts/lora/lora-regular-webfont.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "poppins"; 
+    src: url("../fonts/poppins/poppins-regular-webfont.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 

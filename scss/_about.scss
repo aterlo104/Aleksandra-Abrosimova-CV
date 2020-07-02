@@ -1,0 +1,123 @@
+#about {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.section-intro {
+    padding-bottom: 2rem;
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-family: "poppins";
+
+    h5 {
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: $accent-color;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        padding-top: 10px;
+    }
+}
+
+
+h3 {    
+    line-height: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: $primary-color;
+}
+
+li {    
+    line-height: 2rem;
+    list-style: none;
+    padding-top: 0.5rem;
+    font-family: "poppins";
+}
+
+strong {
+    color: $primary-color;
+    text-transform: uppercase;
+}
+
+.about-content {
+    position: relative;
+    text-align: left;
+    max-width: 850px;
+    margin-bottom: 3.6rem;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2rem;
+    font-family: "poppins";
+}
+
+.intro-info, .skill-container, #lang-cont {
+    position: relative;
+    text-align: left;
+    max-width: 850px;
+    margin-bottom: 3.6rem;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+    #pfp {
+        display: grid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-right: 1.5rem;
+        margin-left: 3rem;
+    }
+
+    .lead {
+        line-height: 2rem;
+        width: 70%;
+    }
+}
+
+.col-six, .skill-list, #lang-list {
+    flex: 1;
+    width: 50%;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#lang-cont {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-section {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 3rem;
+
+    a {
+        display: inline-block;
+        font-family: "poppins-bold", sans-serif;
+        font-size: 0.8em;
+        font-weight: 700;
+        letter-spacing: .2rem;
+        height: 3.5rem;
+        line-height: 3.2rem;
+        width: 40%;
+        padding: 0 1rem;
+        margin: 0 0.5rem 1rem 0.5rem;
+        border: $primary-color solid 3px;
+        color: #313131;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+}

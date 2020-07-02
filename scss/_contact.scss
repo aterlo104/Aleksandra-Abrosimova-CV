@@ -1,0 +1,55 @@
+#contact {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: $primary-color;
+
+    h1, .lead {
+        color: #ececec;
+    }
+}
+
+.contact-info {
+	margin: auto 0;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1rem;
+    position: relative;
+    text-align: center;
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+
+    .col-four {
+        flex: 0.3;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        margin: 0 auto;
+    }
+}
+
+.contact-info {
+    h5 {
+        color: $accent-color;
+    }
+
+    .icon {
+        margin-bottom: 2.1rem;
+        
+        i {
+            font-size: 2.5rem;
+            color: #ececec;
+        }
+    }
+
+    p {
+        color: #ececec;
+    }
+}
+
+.lead {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
